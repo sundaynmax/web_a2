@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Relative, Absolute layout</title>
+
+    <style>
+        .container {
+            background-color: rgb(238, 232, 232);
+            position: relative;
+            width: 800px;
+            height: 300px;
+            margin: 100px auto;
+            border-style: solid;
+        }
+
+        .img-container {
+            position: absolute;
+            left: 50px;
+            top: 25px;
+            border-style: solid;
+        }
+
+        .info {
+            position: absolute;
+            top: 8px;
+            right: 150px;
+        }
+        
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="img-container">
+        <img src="image/blank_avatar.png" alt="" width="250">
+    </div>
+<div class="info">
+    <h1>Your Full Name</h1>
+    <h2>Job Title</h2>
+    <h2>Telephone Number</h2>
+    <h2>Email Address</h2>
+
+</div>
+</div>
+</body>
+
+</html>
